@@ -11,7 +11,7 @@ Proton
         states = new Map(), // {state.fullName => state}
         activeStates = new Set(), // active states
         layers = new Map(), // {layerName => Layer}
-        events = new Map(), // {event => [listeners]}
+        //events = new Map(), // {event => [listeners]}
         Canvas = createCanvas(); // the root element
 
     let orientation, // current orientation
@@ -78,7 +78,7 @@ Proton
     /*
     Apply the states defined in the popstate/URL
      */
-    function applyURLStates(e, initial) {
+    function applyURLStates (e, initial) {
         let newStates = e ? e.state : undefined; // get states from the history event…
         if (!newStates) { // …or from the URL
             const urlStates = window.location.search.slice(1, -1);
@@ -114,7 +114,7 @@ Proton
         for (const state of states.values()) { // add selector for each state
             const selector = "." + state.className;
             visibleSelector.push(`${selector} ${selector + visiblePostfix}`);
-        };
+        }
 
         // add stylesheet
         document.head.appendChild(style);
@@ -222,7 +222,7 @@ Proton
     /*
     Set the orientation state according to the device or forced orientation
      */
-    function setOrientationState(stateName) {
+    function setOrientationState (stateName) {
         const stateToRemove = (stateName === "orientation:landscape") ? "orientation:portrait" : "orientation:landscape";
         if (orientation === stateName) { // nothing happened
             return;
@@ -318,7 +318,7 @@ Proton
     function normalizeCSSValue (value) {
         value = typeof value === "number" ? value + "px" : value;
         return value;
-    };
+    }
 
     /*
     Preload background images
@@ -331,7 +331,7 @@ Proton
             };
             image.src = value;
         });
-    };
+    }
 
     /*
     Layer constructor
@@ -514,7 +514,7 @@ Proton
                 return;
             }
 
-            this.element.dataset["click"] = true; // add data-click attribute for CSS styling
+            this.element.dataset.click = true; // add data-click attribute for CSS styling
 
             this.attributes.click = value;
 
@@ -612,7 +612,7 @@ Proton
          */
         get debug () {
             return this.attributes.debug;
-        },
+        }
     };
 
 
