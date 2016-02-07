@@ -1,3 +1,4 @@
+![Proton logo](http://jamonserrano.github.io/proton/proton-logo.png)
 #Proton
 ###Simple HTML prototypes
 
