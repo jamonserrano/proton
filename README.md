@@ -60,10 +60,10 @@ Proton is a tool to create stateful prototypes for mobile and desktop.
 3. To share a specific state, just use the URL.
 
 ##Supported browsers
-Evergreen browsers with decent ES6 support: Chrome, Firefox, Edge
+Evergreen browsers with decent ES2015 support: Chrome, Firefox, Edge
 
 ##Yet to come
-* Documentation
+* Documentation & Demos
 * Tests!
 * Gestures
 * Animations
