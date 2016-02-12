@@ -1,8 +1,6 @@
 ![Proton logo](http://jamonserrano.github.io/proton/proton-logo.png)
 #Proton
-###Simple HTML prototypes
-
-Proton is a tool to create stateful prototypes for mobile and desktop.
+###Proton is a tool to create stateful prototypes for mobile and desktop.
 
 ##Installation
 1. Clone the repository or download & extract the [.zip](https://github.com/jamonserrano/proton/archive/master.zip).
