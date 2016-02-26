@@ -3,9 +3,9 @@
 ###Proton is a tool to create stateful prototypes for mobile and desktop.
 
 ##Demo
-Check out the Android demo here: http://jamonserrano.github.io/proton-basic-example
-
-> For the best experience add the demo page to your home screen.
+Check out the Android demo here: http://jamonserrano.github.io/proton-basic-example   
+Go through the login flow or tap the screen with 3 fingers to choose any screen.
+For the best experience add the demo page to your home screen.
 
 ##Installation
 1. Clone the repository or download & extract the [.zip](https://github.com/jamonserrano/proton/archive/master.zip).
