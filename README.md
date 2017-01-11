@@ -29,13 +29,13 @@ For the best experience add the demo page to your home screen.
 2. Add screens and other layers for each state
 
 	```javascript
-	addState({
+	addLayer({
 		id: "Home"
 		visible: "screen:home",
 		image: "img/home.png"
 	});
 
-	addState({
+	addLayer({
 		id: "SettingsButton",
 		parent: "Home",
 		click: "screen:settings"
