@@ -1,5 +1,5 @@
-![Proton logo](http://jamonserrano.github.io/proton/proton-logo.png)
-#Proton
+
+#<img src="http://jamonserrano.github.io/proton/proton-logo.png" alt="Proton logo" width="45" height="45" valign="bottom"> Proton
 ###Proton is a tool to create stateful prototypes for mobile and desktop.
 
 ##Demo
